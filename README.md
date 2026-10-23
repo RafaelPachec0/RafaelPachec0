@@ -58,7 +58,7 @@
 
 <div align="center">
   <p align="center">
-    <img src="https://github-profile-trophy.vercel.app/?username=RafaelPachec0&theme=onedark&column=6&row=2" alt="Troféus do GitHub"/>
+    <img src="https://github-profile-trophy-liard-delta.vercel.app/?username=RafaelPachec0&theme=onedark&column=6&row=2" alt="Troféus do GitHub"/>
   </p>
 </div>
 
