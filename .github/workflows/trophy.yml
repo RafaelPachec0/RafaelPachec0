@@ -19,9 +19,9 @@ jobs:
       - name: Generate trophy.svg
         uses: Erik-Donath/github-profile-trophy@feature/generate-svg
         with:
-          username: ${{ github.repository_owner }}
+          username: RafaelPachec0
           file: trophy.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.PROFILE_STATS_TOKEN }}
           theme: onedark
           max-cols: 6
           max-rows: 2
