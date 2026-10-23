@@ -57,10 +57,12 @@
 </div>
 
 <div align="center">
-  <img
-    src="https://raw.githubusercontent.com/RafaelPachec0/RafaelPachec0/output/trophy.svg"
-    alt="Troféus do GitHub"
-  />
+  <p align="center">
+    <img
+      src="https://github-profile-trophy.vercel.app/?username=RafaelPachec0&theme=onedark&column=6&row=2"
+      alt="Troféus do GitHub"
+    />
+  </p>
 </div>
 
 <h2 data-importer="text" align="left">Redes Sociais:</h2>
