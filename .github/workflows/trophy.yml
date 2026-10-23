@@ -20,22 +20,15 @@ jobs:
         uses: Erik-Donath/github-profile-trophy@feature/generate-svg
         with:
           username: ${{ github.repository_owner }}
-          file: trophy.svg
+          output_path: trophy.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           theme: onedark
-          max-cols: 6
-          max-rows: 2
-
-      - name: Prepare output directory
-        run: |
-          mkdir -p dist
-          cp trophy.svg dist/trophy.svg
 
       - name: Publish Trophy
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
-          build_dir: dist
+          build_dir: .
           keep_history: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
