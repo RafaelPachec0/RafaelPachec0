@@ -1,12 +1,12 @@
 name: Generate GitHub Profile Trophy
 
 on:
-  schedule:
-    - cron: "0 0 * * *"
   workflow_dispatch:
   push:
     branches:
       - main
+  schedule:
+    - cron: "0 0 * * *"
 
 jobs:
   generate:
@@ -20,9 +20,11 @@ jobs:
         uses: Erik-Donath/github-profile-trophy@feature/generate-svg
         with:
           username: ${{ github.repository_owner }}
-          output_path: trophy.svg
+          file: trophy.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           theme: onedark
+          max-cols: 6
+          max-rows: 2
 
       - name: Publish Trophy
         uses: crazy-max/ghaction-github-pages@v3.1.0
