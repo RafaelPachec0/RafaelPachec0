@@ -26,12 +26,16 @@ jobs:
           max-cols: 6
           max-rows: 2
 
+      - name: Prepare output directory
+        run: |
+          mkdir -p dist
+          cp trophy.svg dist/trophy.svg
+
       - name: Publish Trophy
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
-          build_dir: .
+          build_dir: dist
           keep_history: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
