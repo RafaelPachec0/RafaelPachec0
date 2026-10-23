@@ -54,10 +54,18 @@
 
 <div data-importer="stats" align="center">
   <img src="https://streak-stats.demolab.com?user=RafaelPachec0&locale=en&mode=daily&theme=dracula&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
-  <img src="https://raw.githubusercontent.com/RafaelPachec0/RafaelPachec0/trophy-output/trophy.svg?theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
 </div>
 
-###
+
+<h2 align="center">🏆 Troféus do GitHub</h2>
+
+<p align="center">
+  <img
+    src="https://raw.githubusercontent.com/RafaelPachec0/RafaelPachec0/output/trophy.svg"
+    alt="GitHub Profile Trophy"
+  />
+</p>
+
 
 <h2 data-importer="text" align="left">Redes Sociais:</h2>
 
